@@ -193,6 +193,10 @@
         margin-left: 0px;
         margin-top: 11px;
     }
+    .popup{
+        left: 53%;
+        bottom: 0px;
+    }
 
     }
 
@@ -210,5 +214,9 @@
         justify-content: center;
         background-color: #F0FBFC;
         transition: .5s;
+    }
+    .popup{
+        left: 53%;
+        bottom: 0px;
     }
 }

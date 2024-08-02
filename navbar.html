@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/popup.css"/>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/media.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/674dfc3618.js" crossorigin="anonymous"></script>
+
+    
+
+
+
+    
+
+</head>
+<script>
+ 
+</script>
+<style>
+  .bg{
+    background-color: #7d7f7de3;
+  }
+</style>
+
+<body>
+  
+  <div class="popup">
+    <button id="close">&times;</button>
+    <div class="form-box">
+      <div class="register-container">
+      <div class="top">
+        <p class="popUp_heading1">IslandBody Fitness</p>
+        <p class="popUp_heading2">contact form</p>
+
+      </div>
+      <!--two-forms-->
+      <div class="two-forms">
+        <div class="input-box">
+          <input type="text" class="input-field" placeholder="Firstname">
+          <i class="bx bx-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" class="input-field" placeholder="Lastname">
+          <i class="bx bx-user"></i>
+        </div>
+      </div>
+      <div class="input-box">
+        <input type="email" class="input-field" placeholder="Email">
+        <i class="bx bx-envelope"></i>
+      </div>
+      <div class="input-box">
+        <input type="number" class="input-field" placeholder="Phone no">
+        <i class="bx bx-phone"></i>
+      </div>
+      <div class="input-box">
+        <input type="submit" class="submit" placeholder="Sumit">
+
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!--header parts start-->
+  <nav id="nav">
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="#">home</a></li>
+      <li><a href="#">services</a>
+        <ul class="dropdown">
+          <li><a href="#home">LINUX & UNIX TRAINING</a></li>
+                <li><a href="#service">DATA CENTER LIVE EXPERIENCE</a>
+                <li><a href="#home">VMWARE TRAINING</a></li>
+                <li><a href="#service">HARDWARE TRAINING</a>
+                <li><a href="#home">HARDWARE TRAINING</a></li>
+                <li><a href="#service">HARDWARE TRAINING</a>
+                <li><a href="#home">DATA CENTER LIVE EXPERIENCE</a></li>
+                <li><a href="#service">VMWARE TRAINING</a>
+        </ul></li>
+      <li><a href="#">About-us</a></li>
+      <li><a href="#">contact us</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+    <ul>
+      <li><a href="#"><img src="./assets/logo.jpg" style="width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 50%;"></a></li>
+      <li class="hideOnMobile"><a href="#">Home</a></li>
+      <li class="hideOnMobile"><a href="#">service</a>
+       <ul class="dropdown">
+        <li><a href="#home">LINUX & UNIX TRAINING</a></li>
+              <li><a href="#service">DATA CENTER LIVE EXPERIENCE</a>
+              <li><a href="#home">VMWARE TRAINING</a></li>
+              <li><a href="#service">HARDWARE TRAINING</a>
+              <li><a href="#home">HARDWARE TRAINING</a></li>
+              <li><a href="#service">HARDWARE TRAINING</a>
+              <li><a href="#home">DATA CENTER LIVE EXPERIENCE</a></li>
+              <li><a href="#service">VMWARE TRAINING</a>
+      </ul>
+      </li>
+      <li class="hideOnMobile"><a href="about.html">About</a></li>
+      <li class="hideOnMobile"><a href="contactUs.html">contact us</a></li>
+      <li class="hideOnMobile"><a href="#"><input type="text" name="search" id="search" placeholder="search"></a></li>
+      <li class="hideOnMobile"><a href="#"><button type="button" id="btn">search</button></a></li>
+
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+  <!--header parts end-->
+  <!--   <section id="nature" class="balls" style="padding: 80px 0px;">
+
+    </section>-->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section_main_1" id="top">
+    <video  id="bg-video" autoplay muted loop>
+      <source src="./assets/course-video.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay">
+      <div class="contaner">
+        <div class="row">
+          <div class="caption">
+            <h6> Hello Students</h6>
+            <h2>Welcome to Education</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ut nobis magni, totam voluptate aliquid
+              harum blanditiis incidunt voluptatum, eius ab doloribus similique. Quidem consectetur ratione voluptate
+              earum debitis. Porro?*4</p>
+            <div class="main-button">
+              <div class="join_us"><a href="#">join us now!</a></div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <!--first card creation start-->
+  <section class="items-container">
+    <div class="item-container">
+      <i class="fa fa-3x fa-graduation-cap text-primary mb-4 icon"></i>
+      <div class="titles">IBM Series</div>
+      <div class="paragraph">2 monts cource <br>16 classes <br>online/offline mode</div>
+    </div>
+    <div class="item-container">
+      <i class="fa fa-3x fa-graduation-cap text-primary mb-4 icon"></i>
+      <div class="titles">dkgbdk</div>
+      <p class="paragraph">2 monts cource <br>16 classes <br>online/offline mode</p>
+    </div>
+
+    <div class="item-container">
+      <i class="fa fa-3x fa-graduation-cap text-primary mb-4 icon"></i>
+      <div class="titles">dkgbdk</div>
+      <p class="paragraph">2 monts cource <br>16 classes <br>online/offline mode</p>
+    </div>
+
+    <div class="item-container">
+      <i class="fa fa-3x fa-graduation-cap text-primary mb-4 icon"></i>
+      <div class="titles">dkgbdk</div>
+      <p class="paragraph">2 monts cource <br>16 classes <br>online/offline mode</p>
+    </div>
+  </section>
+  <!--first card creation end-->
+  <!--Small about us container start-->
+  <section class="about-us">
+    <div class="about_page_flex">
+      <div class="about_Page1"><img src="assets/about.jpg" alt=""></div>
+      <div class="about_page2">
+        <div class="h6">About-us</div>
+        <div class="greding">Welcome to RWX Classes</div>
+        <div class="h5">About Our Institution</div>
+        <div class="paragrah_About_1">RWX is the new destination for industry-based IT training. Our business philosophy
+          is solely based on human values, quality education, and personal relationships. Our core concepts like “value
+          for money, need analysis, agreeable customers, and preparing them with an improved industrial orientation” are
+          imprinted on top of our minds.</div>
+        <div class="paragrah_About_2">Unlike countless other IT training institutes, New IIT is not just a money-making
+          organization. Here we place high emphasis on value thanks to our highly qualified training personnel with
+          profound bases in some of the country's reputed IT companies. Here we don’t just possess the latest
+          technologies, software, and gadgets but also the most experienced and skilled hands to offer the most
+          customer-friendly personalized solutions.</div>
+        <div class="title2">
+          <div class="subtitute">
+            <div class="subtitle"><i class="fa fa-arrow-right text-primary me-2"></i>IBM Series</div>
+            <div class="subtitle"><i class="fa fa-arrow-right text-primary me-2"></i>IBM AIX Training</div>
+            <div class="subtitle"><i class="fa fa-arrow-right text-primary me-2"></i>IBM virtualization(vios)</div>
+            <div class="subtitle"><i class="fa fa-arrow-right text-primary me-2"></i>SAN Training</div>
+            <div class="subtitle"><i class="fa fa-arrow-right text-primary me-2"></i>Oracle Training</div>
+            <div class="subtitle"><i class="fa fa-arrow-right text-primary me-2"></i>VM ware</div>
+          </div>
+        </div>
+        <a type="button" class="Button_about_us" href="#">read more</a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="student_say">
+
+    <h1 class="title">our students says !</h1>
+  <div class="card-contaniner_pre">
+   
+    <div class="card-container">
+      
+      <div class="card">
+        
+        <div class="card-title">
+          <img src="assets/1.jpg">
+          
+        </div>
+        <div class="card-story" id="card-story">
+          <h1>Rahul kumar</h1>
+          <p class="profession">profession</p>
+          <p>Excellent Training, select a good institution like dis where u will technically capable of working in
+            corporate biggies. They provide very good real time training on live servers. Must go..!.
+
+          </p>
+        </div>
+       
+      </div>
+     
+      <div class="card">
+        
+        <div class="card-title">
+          <img src="assets/1.jpg">
+          
+        </div>
+        <div class="card-story" id="card-story">
+          <h1>Rahul kumar</h1>
+          <p class="profession">profession</p>
+          <p>Excellent Training, select a good institution like dis where u will technically capable of working in
+            corporate biggies. They provide very good real time training on live servers. Must go..!.
+
+          </p>
+        </div>
+
+      </div>
+
+      <div class="card">
+        
+        <div class="card-title">
+          <img src="assets/1.jpg">
+          
+        </div>
+        <div class="card-story" id="card-story">
+          <h1>Rahul kumar</h1>
+          <p class="profession">profession</p>
+          <p>Excellent Training, select a good institution like dis where u will technically capable of working in
+            corporate biggies. They provide very good real time training on live servers. Must go..!.
+
+          </p>
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="card-title">
+          <h1>Rahul kumar</h1>
+          <p class="profession">profession</p>
+        </div>
+        <div class="card-story" id="card-story">
+          <p>Excellent Training, select a good institution like dis where u will technically capable of working in
+            corporate biggies. They provide very good real time training on live servers. Must go..!.
+
+          </p>
+        </div>
+
+      </div>
+      <div class="card">
+        
+        <div class="card-title">
+          <img src="assets/1.jpg">
+          
+        </div>
+        <div class="card-story" id="card-story">
+          <h1>Rahul kumar</h1>
+          <p class="profession">profession</p>
+          <p>Excellent Training, select a good institution like dis where u will technically capable of working in
+            corporate biggies. They provide very good real time training on live servers. Must go..!.
+
+          </p>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <h1>amit kumar</h1>
+          <p class="profession">profession</p>
+        </div>
+        <div class="card-story" id="card-story">
+          <p>Excellent Training, select a good institution like dis where u will technically capable of working in
+            corporate biggies. They provide very good real time training on live servers. Must go..!.
+
+          </p>
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="card-title">
+          <h1>Rahul kumar</h1>
+          <p class="profession">profession</p>
+        </div>
+        <div class="card-story" id="card-story">
+          <p>Excellent Training, select a good institution like dis where u will technically capable of working in
+            corporate biggies. They provide very good real time training on live servers. Must go..!.
+
+          </p>
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="card-title">
+          <h1>sumit kumar</h1>
+          <p class="profession">profession</p>
+        </div>
+        <div class="card-story" id="card-story">
+          <p>Excellent Training, select a good institution like dis where u will technically capable of working in
+            corporate biggies. They provide very good real time training on live servers. Must go..!.
+
+          </p>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <h1>amit kumar</h1>
+          <p class="profession">profession</p>
+        </div>
+        <div class="card-story" id="card-story">
+          <p>Excellent Training, select a good institution like dis where u will technically capable of working in
+            corporate biggies. They provide very good real time training on live servers. Must go..!.
+
+          </p>
+        </div>
+
+      </div>
+    
+   <!--card pop start-->
+   <div class="popup1" id="popup1">
+    <div class="popup_hr">
+      <div class="popup_card_1">
+      <button id="close_2">&times;</button>
+
+        <div class="popup_card_bgcimg">
+          
+        </div>
+        <div class="popup_card_heading">
+              <img src="assets/logo.jpg">
+              <div class="popup_card_subheading">
+                    <h1> Mayuri Samanta</h1>
+                     <p class="popup_card_subheading_title"> Navsari, Gujarat<br>
+                      Fresher to SDE1 at LogWinTech Pvt. Ltd.</p>
+              </div>
+        </div>
+        <div class="popup_card_para">
+                  <p>Mayuri comes from Navsari, near Surat in Gujarat. As a child, she showed promise and attended an English medium school, where she consistently ranked among the top students. After scoring exceptionally well in her 12th-grade exams, Mayuri received widespread recognition in her district, with her achievements featured in local newspapers.</p>
+                  <p>Mayuri comes from Navsari, near Surat in Gujarat. As a child, she showed promise and attended an English medium school, where she consistently ranked among the top students. After scoring exceptionally well in her 12th-grade exams, Mayuri received widespread recognition in her district, with her achievements featured in local newspapers.</p>
+                  <p>Mayuri comes from Navsari, near Surat in Gujarat. As a child, she showed promise and attended an English medium school, where she consistently ranked among the top students. After scoring exceptionally well in her 12th-grade exams, Mayuri received widespread recognition in her district, with her achievements featured in local newspapers.</p>
+                  <p>Mayuri comes from Navsari, near Surat in Gujarat. As a child, she showed promise and attended an English medium school, where she consistently ranked among the top students. After scoring exceptionally well in her 12th-grade exams, Mayuri received widespread recognition in her district, with her achievements featured in local newspapers.</p>
+                  <p>Mayuri comes from Navsari, near Surat in Gujarat. As a child, she showed promise and attended an English medium school, where she consistently ranked among the top students. After scoring exceptionally well in her 12th-grade exams, Mayuri received widespread recognition in her district, with her achievements featured in local newspapers.</p>
+                  <p>Mayuri comes from Navsari, near Surat in Gujarat. As a child, she showed promise and attended an English medium school, where she consistently ranked among the top students. After scoring exceptionally well in her 12th-grade exams, Mayuri received widespread recognition in her district, with her achievements featured in local newspapers.</p>
+        
+                </div>
+    </div>
+  </div> 
+  </div>
+  <!--card pop end-->
+    </div>
+  </div>
+    <div style="text-align:center;margin-top: 1rem;">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+  </section> 
+  <footer class="footer">
+    <div class="xyz">
+      <div class="company">
+        <h4>company</h4>
+        <ul class="unorder">
+          <li class="listorder">About us</li>
+          <li class="listorder">careers</li>
+
+        </ul>
+      </div>
+      <div class="company">
+        <h4>view website in</h4>
+        <ul class="unorder">
+
+
+          <li class="listorder"><span>&#10003;</span> English</li>
+
+        </ul>
+      </div>
+      <div class="company">
+        <h4>need help</h4>
+        <ul class="unorder">
+          <li class="listorder">visit help center</li>
+          <li class="listorder">share feedback</li>
+
+        </ul>
+      </div>
+      <div class="company">
+        <h4>contact with us</h4>
+        <ul class="unorder">
+          <li class="listorder"> facebook <i class="fa fa-facebook" style="color: whitesmoke;"></i> </li>
+          <li class="listorder"> twitter <i class="fa fa-twitter" style="color: whitesmoke;"></i></li>
+          <li class="listorder"> whatsapp <i class="fa fa-whatsapp" style="color: whitesmoke;"></i></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="abc">
+      <div class="copyright1">
+
+        <div class="copyright2">
+          <p>&copy; 2024 RWX.ALL right reserverd </p>
+
+        </div>
+        <ul class="unoreder1">
+          <li class="listorder1">term of use</li>
+          <li class="listorder1">privacy policy</li>
+          <li class="listorder1">FAQ</li>
+
+        </ul>
+      </div>
+
+
+    </div>
+  </footer>
+  <script src="js/popup.js"></script>
+  <script src="index.js"></script>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+</body>
+
+</html>

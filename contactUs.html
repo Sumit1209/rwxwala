@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contactUs.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+</head>
+<body>
+    <nav id="nav">
+      <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+        <li><a href="#">home</a></li>
+        <li><a href="#">services</a>
+          <ul class="dropdown">
+            <li><a href="navbar.html">LINUX & UNIX TRAINING</a></li>
+                  <li><a href="#service">DATA CENTER LIVE EXPERIENCE</a>
+                  <li><a href="#home">VMWARE TRAINING</a></li>
+                  <li><a href="#service">HARDWARE TRAINING</a>
+                  <li><a href="#home">HARDWARE TRAINING</a></li>
+                  <li><a href="#service">HARDWARE TRAINING</a>
+                  <li><a href="#home">DATA CENTER LIVE EXPERIENCE</a></li>
+                  <li><a href="#service">VMWARE TRAINING</a>
+          </ul></li>
+        <li><a href="#">About-us</a></li>
+        <li><a href="#">contact us</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+      <ul>
+        <li><a href="#"><img src="./assets/logo.jpg" style="width: 100%;
+          height: 100%;
+          border: none;
+          border-radius: 50%;"></a></li>
+        <li class="hideOnMobile"><a href="navbar.html">Home</a></li>
+        <li class="hideOnMobile"><a href="#">service</a>
+         <ul class="dropdown">
+          <li><a href="#home">LINUX & UNIX TRAINING</a></li>
+                <li><a href="#service">DATA CENTER LIVE EXPERIENCE</a>
+                <li><a href="#home">VMWARE TRAINING</a></li>
+                <li><a href="#service">HARDWARE TRAINING</a>
+                <li><a href="#home">HARDWARE TRAINING</a></li>
+                <li><a href="#service">HARDWARE TRAINING</a>
+                <li><a href="#home">DATA CENTER LIVE EXPERIENCE</a></li>
+                <li><a href="#service">VMWARE TRAINING</a>
+        </ul>
+        </li>
+        <li class="hideOnMobile"><a href="about.html">About</a></li>
+        <li class="hideOnMobile"><a href="contactUs.html">contact us</a></li>
+        <li class="hideOnMobile"><a href="#"><input type="text" name="search" id="search" placeholder="search"></a></li>
+        <li class="hideOnMobile"><a href="#"><button type="button" id="btn">search</button></a></li>
+  
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+      </ul>
+    </nav>
+    <section class="contact_us" >
+        <h2 class="text-advance">get in touch !</h2>
+    <div class="address_line">
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224567.72023123867!2d76.82493630561984!3d28.423160292914293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2sGurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1720873389573!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapStyle"></iframe></div>
+        <div class="address">
+            <div class="address_part1">
+                <h2 class="address_heading">Global Headquarters</h2>
+                <p class="sub_address_heading">2 Canal Park <br>Cambridge, MA 02141<br>United States </p>
+            </div>
+            <div class="address_part1">
+                <h3 class="address_heading">Phone/Fax</h3>
+                <p class="sub_address_heading"> + 1 888 HUBSPOT <br> (+1 888 482 7768) <br><br><strong>Fax</strong> +1 617 812 5820</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact">
+        <div class="form">
+            <input class="form-input " type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone">
+            <input class="form-input" type="text" name="email" id="email" placeholder="Enter your email">
+            <textarea class="form-input" name="text" id="text" cols="5" rows="4" placeholder="Enter your Text here"></textarea>
+            <button class="btn btn-dark">Submit</button>
+       </div>
+
+    </div>
+        </section>
+       
+        <footer class="footer">
+            <div class="xyz">
+              <div class="company">
+                <h4>company</h4>
+                <ul class="unorder">
+                  <li class="listorder">About us</li>
+                  <li class="listorder">careers</li>
+        
+                </ul>
+              </div>
+              <div class="company">
+                <h4>view website in</h4>
+                <ul class="unorder">
+        
+        
+                  <li class="listorder"><span>&#10003;</span> English</li>
+        
+                </ul>
+              </div>
+              <div class="company">
+                <h4>need help</h4>
+                <ul class="unorder">
+                  <li class="listorder">visit help center</li>
+                  <li class="listorder">share feedback</li>
+        
+                </ul>
+              </div>
+              <div class="company">
+                <h4>contact with us</h4>
+                <ul class="unorder">
+                  <li class="listorder"> facebook <i class="fa fa-facebook"></i> </li>
+                  <li class="listorder"> twitter <i class="fa fa-twitter"></i></li>
+        
+                </ul>
+              </div>
+            </div>
+            <div class="abc">
+              <div class="copyright1">
+        
+                <div class="copyright2">
+                  <p>&copy; 2024 RWX.ALL right reserverd </p>
+        
+                </div>
+                <ul class="unoreder1">
+                  <li class="listorder1">term of use</li>
+                  <li class="listorder1">privacy policy</li>
+                  <li class="listorder1">FAQ</li>
+        
+                </ul>
+              </div>
+        
+        
+            </div>
+          </footer>
+</body>
+</html>

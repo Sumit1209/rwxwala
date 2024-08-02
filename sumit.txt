@@ -1,0 +1,214 @@
+
+.navnar1 {
+    width: 100%;
+    /*border: 2px solid red;*/
+    height: 79px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    border-bottom: 2px solid #998e8e;;
+    opacity: 1;
+    background-color: black;
+    /*position: sticky;*/
+/* position: fixed; */
+top: 0;
+right: 0;
+left: 0;
+z-index: 40000;
+
+    
+}
+
+
+.logo {
+    /*border: 2px dashed black;*/
+    width: 20%;
+}
+
+.navbar {
+    /*border: 2px dashed rgb(113, 193, 17);*/
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo1 {
+    width: 401px;
+height: 63px;
+    position: relative;
+    left: 15%;
+}
+
+.logo1 img {
+    display: inline-block;
+    width: 16%;
+    height: 94%;
+    /*border: 2px solid red;*/
+    border-radius: 70%;
+}
+
+.nav-list{
+    /*border: 3px solid black;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px 33px;
+    width: 75%;
+    text-align: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 18px 25px;
+    display: inline-block;
+    /*border: 2px solid green;*/
+    /*box-shadow: 0 1px 8px #c70e0e;*/
+    margin: 4px;
+    position: relative;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-size: 19px;
+color: white
+;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s;
+}
+
+.nav-list li a:hover {
+    color: goldenrod;
+    text-decoration: underline rgb(184, 184, 209)4px; 
+    text-underline-offset: 20px;  
+    padding: 2px;
+    
+}
+
+.searching {
+    /*border: 3px solid rgb(191, 29, 29);*/
+    display: flex;
+    align-items:center;
+    width: 23%;
+    text-align: center;
+    
+    
+}
+
+#search {
+    
+    padding: 5px;
+    font-size: 17px;
+    border: none;
+    /*border-bottom: 2px solid gray;*/
+   border-radius: 9px;
+   transition: 1s;
+    outline: none;
+    /*background-color: transparent;*/
+    
+    width: 50%;
+}
+/*#search:focus{
+width:280px;
+border-color:#1f80e0;
+
+}*/
+
+#btn{
+    padding: 5px;
+    margin-left: 25px;
+    font-size: 17px;
+    border: none;
+   border-radius: 9px;
+   transition: 1s;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+.drowpdown {
+    display: none;
+    /*border: 2px solid red;*/
+    border-radius: 18px;
+    z-index: 1;
+}
+
+
+.navbar ul li:hover .drowpdown {
+    display: block;
+    position: absolute;
+    left: 21px;
+right: -31px;
+top: 100%;
+   /* border: 2px solid red;*/
+   width: 384px;
+   background-color: white;
+    }
+
+.drowpdown ul {
+    list-style: none;
+    padding: 0 12px;
+    display: block;
+    text-align:start;
+    width: 100%;
+
+    /* border: 2px solid green; */
+}
+
+.drowpdown ul li {
+    padding: 1px;
+    
+}
+.drowpdown ul li a {
+    padding: 1px;
+    color: black;
+}
+.drowpdown ul li a:hover {
+    color: goldenrod;
+    text-decoration: none;
+    
+    width: 100%;
+}
+ <!--header parts start-->
+  <div id="navnar1"class="navnar1 h-nav-resp">
+    <div class="logo">
+      <div class="logo1"><img src="./assets/logo.jpg"></div>
+
+    </div>
+    <div class="navbar ">
+      <ul class="nav-list v-classresp">
+        <li><a href="#home">home</a></li>
+        <li><a href="#service">service <i class="fas fa-caret-down"></i></a>
+          <div class="drowpdown">
+            <ul>
+              <li><a href="#home">LINUX & UNIX TRAINING</a></li>
+              <li><a href="#service">DATA CENTER LIVE EXPERIENCE</a>
+              <li><a href="#home">VMWARE TRAINING</a></li>
+              <li><a href="#service">HARDWARE TRAINING</a>
+              <li><a href="#home">HARDWARE TRAINING</a></li>
+              <li><a href="#service">HARDWARE TRAINING</a>
+              <li><a href="#home">DATA CENTER LIVE EXPERIENCE</a></li>
+              <li><a href="#service">VMWARE TRAINING</a>
+            </ul>
+          </div>
+        </li>
+        <li><a href="contactus.html">contact us</a></li>
+        <li><a href="about.html">about us</a></li>
+
+      </ul>
+      <div class="searching v-classresp">
+        <input type="text" name="search" id="search" placeholder="search">
+        <button type="button" id="btn">search</button>
+      </div>
+      
+
+    </div>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <!--header parts end-->

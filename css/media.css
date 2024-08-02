@@ -125,7 +125,7 @@
     /*for popup*/
     .popup {
         left: 41%;
-        top: 40%;
+        bottom: 0px;
         /* border: 2px solid red; */
        
     }

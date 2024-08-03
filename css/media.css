@@ -76,8 +76,10 @@
 
     .card-container {
 
-        min-width: 237px;
-        width: 624px;
+        /*min-width: 237px;
+        width: 624px;*/
+        min-width: 100%;
+        width: 100%;
 
 
 
@@ -85,8 +87,11 @@
 
     .card {
 
-        min-width: 299px;
-        width: 518px;
+       /* min-width: 299px;*/
+        min-width: 50%;
+
+        /*width: 518px;*/
+        width: 100%;
 
     }
 
@@ -220,3 +225,4 @@
         bottom: 0px;
     }
 }
+

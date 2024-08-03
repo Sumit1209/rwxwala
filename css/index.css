@@ -143,8 +143,8 @@ nav ul li:hover .dropdown{
     position: relative;
     /*top: -79px;*/
    
-   /* width: 100%;
-    border: 2px solid red;*/
+    width: 100%;
+    border: 2px solid red;
     object-fit: cover;
     z-index: -1;
 }
@@ -560,7 +560,8 @@ nav ul li:hover .dropdown{
 .card {
   position: relative;
   min-width: 361px;
-  width: 518px;
+  /*width: 518px;*/
+  width: 20%;
   height: 90%;
   border-radius: 5px;
   overflow: hidden;

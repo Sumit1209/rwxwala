@@ -80,7 +80,7 @@ nav li:first-child{
 }
 @media(max-width: 400px){
   .sidebar{
-    width: 30%;
+    width: 40%;
   }
 }
 

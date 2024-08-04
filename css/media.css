@@ -45,8 +45,11 @@
         transition: all .5s;
     }
 
-    .items-container .items-container_about_us {
+    .items-container {
         width: 112%;}
+        
+        .items-container_about_us {
+            width: 112%;}
 
     .address_line{
         width: 123%;

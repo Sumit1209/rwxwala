@@ -283,7 +283,16 @@ nav ul li:hover .dropdown{
 
 
 
-
+.items-container_about_us{
+  position: relative;
+  top: 20px;
+  width: 88%;
+      margin: 80px 5%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+     /* border: 2px solid green; */
+}
 
 /*card1 start*/
 .items-container {

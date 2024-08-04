@@ -212,3 +212,17 @@ top: 100%;
     </div>
   </div>
   <!--header parts end-->
+
+
+   .address {
+        /* border: 2px solid black; */
+       flex-direction: row;
+       width: 100%;
+   
+    padding-left: 0;
+    margin: 0;
+    }
+    .address_part1 {
+        /* border: 2px solid green; */
+        margin-left: 35px;
+    }

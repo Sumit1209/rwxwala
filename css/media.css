@@ -105,6 +105,11 @@
         width: 117%;
         margin-bottom: -31px;
     }
+    /* for popup1*/
+    .popup1 {
+       
+        
+    }
 
 
 
@@ -259,10 +264,10 @@
     }
     .popup1 {
         
-        width: 660px;
-        height: 503px;
+        width: 100%;
+       
         position: fixed;
-        left: 2%;
+        left: 0%;
         top: 14%;
        
     }

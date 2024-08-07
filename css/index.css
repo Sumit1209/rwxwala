@@ -648,12 +648,13 @@ h1 {
 .popup1 {
   
   background-color: white;
-  width: 807px;
+ /* width: 807px;*/
+ width: 50%;
   height: 598px;
   position: fixed;
   left: 23%;
-  top: 7%;
- /* border: 2px solid red;*/
+  top: 12%;
+  /*border: 2px solid red;*/
   border-radius: 12px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: none;

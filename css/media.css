@@ -247,7 +247,7 @@
     }
     /*for popup*/
     .popup {
-        right: 0;
+        right: 10px;
         bottom: 0px;
         /* border: 2px solid red; */
        

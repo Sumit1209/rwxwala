@@ -149,6 +149,7 @@
 @media (max-width: 848px) {
     .container_hire{
         flex-direction: column;
+        justify-content:center;
     }
     .hero-content {
      max-width: 100%;
@@ -418,6 +419,20 @@
     }
     to {
         transform: translateX(0%);
+    }
+}
+@media(max-width: 512px){
+    .skill-box{
+        width: 100%;
+    }
+    .info-boxes{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+    .form-container_hire{
+        margin-left: 44px;
     }
 }
 

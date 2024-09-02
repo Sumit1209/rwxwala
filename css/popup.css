@@ -1,0 +1,115 @@
+
+
+  .popup {
+    background-color: #e9e7e7;
+    /*width: 450px;*/
+    padding: 30px 40px;
+    position: fixed;
+    /*left: 69%;
+    /*top: 36%;
+    */
+    right: 0;
+    bottom: 0px;
+    /*border: 2px solid red;*/
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: none;
+    z-index: 1;
+  }
+  .popup button{
+    display: block;
+    margin: -21px 0 -6px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .popup button:hover{
+    color:red;
+  }
+.form-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 328px;
+    height: 365px;
+  overflow: hidden;
+  z-index: 2;
+  /*border: 2px solid black;*/
+}
+.register-container{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  transition: .5 ease-in-out;
+}
+.top{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 27px;
+    height: 58px;
+    line-height: 1.5;
+}
+.popUp_heading1{
+  font-size: 27px;
+    font-weight: 700;
+    font-style: normal;
+}
+.popUp_heading2{
+  font-size: 22px;
+}
+.two-forms{
+  display: flex;
+  gap: 10px;
+}
+/*.input-box{
+  margin-bottom: 18px;
+}*/
+.input-field{
+  font-size: 15px;
+  background-color: #fefefecf;
+  color: black;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px 0 45px;
+  
+  border-radius: 30px;
+  
+  transition: .2s ease;
+}
+.input-field:hover,.input-field:focus{
+  background-color:rgba(255, 255, 255, 0.2);
+}
+::-webkit-input-placeholder{
+  color: rgb(19, 11, 11);
+}
+.input-box i{
+  position:relative;
+  top: -35px;
+  left: 17px;
+  color: #454040;
+  font-size: 19px;
+
+}
+.submit{
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background-color: rgba(21, 140, 205, 0.7);
+  
+  transition: .3s ease-in-out;
+}
+.submit:hover{
+  background-color: rgba(50, 18, 210, 0.5);
+}

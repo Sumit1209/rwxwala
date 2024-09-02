@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/services.css" />
+  <link rel="stylesheet" href="css/popup.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/media.css"/>
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/contactUs.css" />
+  <link rel="stylesheet" href="css/exmaple.css" />
+
+
+
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://kit.fontawesome.com/674dfc3618.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo"><img src="assets/logo.jpg" alt=""></a>
+    
+    <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">service </a><b></b>
+                 <ul>
+                    <li><a href="#">SOFTWARE DEVELOPER</a></li>
+              <li><a href="#service">DATA CENTER LIVE EXPERIENCE</a>
+              <li><a href="#home">VMWARE TRAINING</a></li>
+              <li><a href="#service">HARDWARE TRAINING</a>
+              <li><a href="#home">HARDWARE TRAINING</a></li>
+              <li><a href="#service">HARDWARE TRAINING</a>
+              <li><a href="#home">DATA CENTER LIVE EXPERIENCE</a></li>
+              <li><a href="#service">VMWARE TRAINING</a>
+                  </ul>
+                </li>
+                <li><a href="contactUs.html">contact us</a></li>
+                <li><a href="hire_us.html">hire us</a></li>
+  
+            </ul>
+           
+        </nav>
+    </header>
+    <hr>
+  <navbar class="nav_2">
+      <ul>
+          <li><a href=""style="text-decoration: none;"><i class="fa fa-3x fa-home text-primary mb-4 icon"></i></a></li>
+          <li class="shows"><a href="#">HTML</a></li>
+          <li class="shows"><a href="#">CSS</a></li>
+          <li class="shows"><a href="#">JS</a></li>
+          <li class="shows"><a href="#">C</a></li>
+          <li class="shows"><a href="#">C++</a></li>
+          <li class="shows"><a href="#">JAVA</a></li>
+          <li class="shows"><a href="#">PYHTON</a></li>
+          <li class="shows"><a href="#">REACT JS</a></li>
+      
+      <li><a style="text-decoration: none;"><input type="text" name="search" id="search" placeholder="search" ></li></a></li>
+      </ul>
+  </navbar>
+  <section class=" background firstSection" id="About">
+    <div class="box-main">
+      <div class="firsthalf">
+        <h1 class="text-big" style="word-spacing: 12px;"> Become a<span class="auto-type"> Software Developer </span> </h1>
+        <ul class="text-small">
+          <li class="list">No prior coding experience  </li>
+
+          <li class="list"> 30 weeks full-time program with live classes</li>
+
+          <li class="list"> Top recruiters from PayTM, Walmart, Amazon</li>
+        </ul>
+        <div class="service_button">
+          <button class="btn">Subscribe here</a></button>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+    <div class="batch_items-container">
+      <div class="batch_item-container">
+        <i class="fa fa-3x fa-desktop text-primary mb-4 icon"></i>
+        <div class="titles">Batch Starting</div>
+        <p class="paragraph">2 August, 2024</p>
+      </div>
+      <div class="batch_item-container">
+        <i class="fa fa-3x fa-calendar text-primary mb-4 icon"></i>
+        <div class="titles">Duration </div>
+        <p class="paragraph">30 weeks </p>
+      </div>
+
+      <div class="batch_item-container">
+        <i class="fa fa-3x fa-bolt text-primary mb-4 icon"></i>
+        <div class="titles">Timings</div>
+        <p class="paragraph">*11am to 11pm <br>Monday to Saturday
+          <br>online/offline mode
+        </p>
+      </div>
+
+      <div class="batch_item-container" style="border-right:none">
+        <i class="fa fa-3x fa-people-group text-primary mb-4 icon"></i>
+        <div class="titles">Eligibility</div>
+        <p class="paragraph">12th Pass, Diploma<br>College Graduates,<br>18 - 28 years
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="cources_checking">
+    <div class="cources_checking_para">Not sure if you are eligible? Take our eligibility test </div>
+    <button class="cources_checking_button" id="openFormBtn">check eligiblity</button>
+  </section>
+  <div id="popupForm" class="form-popup">
+    <form class="form-container">
+        <h2> Check Eligibility</h2>
+
+        <!--<label for="name"><b>Enter Your Full Name *</b></label>-->
+        <input type="text" placeholder="Enter your name" name="name" >
+
+        <!--<label for="email"><b>Email *</b></label>-->
+        <input type="email" placeholder="Enter Email Address" name="email" >
+
+        <!--<label for="phone"><b>Your Phone Number *</b></label>-->
+        <input type="tel" placeholder="Enter Phone Number" name="phone" >
+
+       <!-- <label for="dob"><b>Date of Birth *</b></label>-->
+        <input type="date" name="dob" >
+
+        <!--<label for="graduation"><b>Year of completing school/graduation *</b></label>-->
+        <input type="date" name="graduation" >
+
+        <!--<label for="status"><b>Current working status *</b></label>-->
+        <select name="status" >
+            <option value="" disabled selected>Please select</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="student">Student</option>
+        </select>
+
+        <label>
+            <input type="checkbox" name="updates"> I would like to receive Emails.
+        </label>
+
+        <button type="submit" class="btn">Submit</button>
+        <button type="button" class="btn cancel" id="closeFormBtn">Close</button>
+    </form>
+</div>
+    <!-- Pop-up aftet submit the form -->
+    <div id="successModal" class="modal">
+      <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <p>Success!</p>
+      </div>
+  </div>
+
+
+   
+  <section class="cources_details">
+    <h1 class="cource_details_heading">Cource Details</h1>
+    <div class="cources_details_div1">
+      <div class="cource_details_navbar">
+        <ul>
+          <li><a onmouseover="web_Development()">Full Stack Web Development (30 weeks)</a></li>
+          <li><a onmouseover="Backend()">Backend(30weaks)</a></li>
+          <li><a onmouseover="frontend()">Forntend</a></li>
+          <li><a onmouseover="softerware_Development()">softerware Development Engineering Test</a></li>
+        </ul>
+      </div>
+      <!-- <select class="cource_details_selection">
+      <option class="cource_details_selection_option">Full Stack Web Development</option>
+      <option class="cource_details_selection_option">Backend</option>
+      <option class="cource_details_selection_option">Forntend</option>
+      <option class="cource_details_selection_option">softerware Development Engineering Test</option>
+     </select>-->
+      <div class="select-box">
+        <div class="selected">
+          Full Stack Web Development
+        </div>
+        <div class="options-container">
+          <div class="option"onclick="web_Development()">
+            <input type="radio" class="radio" id="automobiles" name="category" />
+            <label for="automobiles">Full Stack Web Development</label>
+          </div>
+
+          <div class="option" onclick="Backend()">
+            <input type="radio" class="radio" id="film" name="category" />
+            <label for="film">Backend</label>
+          </div>
+
+          <div class="option"onclick="frontend()">
+            <input type="radio" class="radio" id="science" name="category" />
+            <label for="science">Forntend</label>
+          </div>
+
+          <div class="option"onclick="softerware_Development()">
+            <input type="radio" class="radio" id="art" name="category" />
+            <label for="art">softerware Development Engineering Test</label>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="cource_details_content" id="content_1">
+        <h4>Week 1-5 (Unit-1)</h4>
+        <h4 class="cource_details_content_h4"> Basics</h4>
+        <ul>
+          <li>Foundation Skills: HTML, CSS for web pages, JavaScript for interactivity.</li>
+          <li>Advanced Frontend: React for dynamic UIs, Redux for state management.</li>
+          <li>Backend Development: Node.js, Express for backend services.</li>
+          <li>Database Integration: MongoDB for data storage and retrieval.</li>
+          <li>Deployment and Security: Secure applications, deploy on various platforms.</li>
+          <li>Data Structures and Algorithms: Arrays, linked lists, trees, graphs, sorting, searching, dynamic
+            programming.</li>
+        </ul>
+      </div>
+      <div class="cource_details_content" id="content_2">
+        <h4>Week 6-12 (Unit-2)</h4>
+        <h4 class="cource_details_content_h4">backend Basics</h4>
+        <ul>
+          <li>Foundation Skills: HTML, CSS, JavaScript for interactivity.</li>
+          <li>Basics: Node.js, HTTP, Express, dynamic responses, MongoDB, SQL, coding conventions, linter.</li>
+          <li>Core Concepts: Express middleware, authentication, role-based access control, CRUD, deployment, Swagger,
+            API testing, events, WebSockets.</li>
+          <li>Advanced: Email sending, cron jobs, logging, monitoring, system design.</li>
+          <li>Deployment and Security: Secure applications, deploy on various platforms, and production readiness.</li>
+
+        </ul>
+      </div>
+      <div class="cource_details_content" id="content_3">
+        <h4>Week 12-20 (Unit-1)</h4>
+        <h4>frontend Basics</h4>
+        <ul>
+          <li>Foundation Skills: HTML, CSS for web pages, JavaScript for interactivity.</li>
+          <li>Advanced JavaScript: DOM manipulation, local storage, JSON, async JavaScript, promises, fetch API, DOM
+            sorting/filtering/pagination, mock server, JWT authentication.</li>
+          <li>React Basics: ReactDOM, JSX, Babel, components, props, state management, hooks (useState, useEffect,
+            useRef).</li>
+          <li>React Advanced: Forms, lists, Axios, lifecycle methods, React Context API, routing, environment variables,
+            Chakra UI styling, useReducer.</li>
+          <li>Redux: Redux essentials, advanced concepts, custom hooks, performance optimization, TypeScript, TypeScript
+            with React.</li>
+          <li>Data Structures and Algorithms: Arrays, linked lists, trees, graphs, sorting, searching, dynamic
+            programming.</li>
+        </ul>
+      </div>
+      <div class="cource_details_content" id="content_4">
+        <h4 class="cource_details_content_h4">Week 21-30 (Unit-1)</h4>
+        <h4>softerware Development Engineering Test</h4>
+        <ul>
+          <li>Basics: Software testing, test planning, defect lifecycle, RTM.
+
+          </li>
+          <li>Cypress: Installation, test scripts, advanced features, POM.</li>
+          <li>Selenium: Setup, test scripts, advanced features, POM.</li>
+          <li>API Testing: Postman, automation, advanced features, Rest Assured setup, OAuth, Jenkins.</li>
+          <li>Mobile Testing: Appium setup, test scripts, advanced features, Selenium Grid.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+ 
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-row">
+            <!-- Column 1: Courses -->
+            <div class="footer-column">
+                <h4>Courses</h4>
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Data Science</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Mobile App Development</a></li>
+                </ul>
+            </div>
+            <!-- Column 2: Company -->
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <!-- Column 3: Resources -->
+            <div class="footer-column">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </div>
+            <!-- Column 4: Connect with Us -->
+            <div class="footer-column">
+                <h4>Connect with Us</h4>
+                <div class="social-links">
+                    <a href="#"><img src="assets/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="assets/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="assets/linkedin-icon.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="assets/instagram-icon.png" alt="Instagram"></a>
+                </div>
+                <div class="telegram-link">
+                    <a href="#">Join our Telegram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+    </div>
+</footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+     var typed=new Typed(".auto-type",{
+        strings :["Software Developer","Fronted Developer","Backend Developer"],
+        typeSpeed:150,
+        backSpeed:150,
+        looped:true
+      })
+    /* 1. variable start for contet*/
+    let x = document.getElementById("content_1")
+    let y = document.getElementById("content_2")
+    let z = document.getElementById("content_3")
+    let a = document.getElementById("content_4")
+    /* 1. variable end for contet*/
+    /* 2. variable start for select option*/
+
+    const selected = document.querySelector(".selected");
+    const optionsContainer = document.querySelector(".options-container");
+
+    const optionsList = document.querySelectorAll(".option");
+    /* 2. variable end for select option*/
+    /* 2. function start for select option*/
+ 
+    selected.addEventListener("click", () => {
+      optionsContainer.classList.toggle("active");
+    });
+
+    optionsList.forEach(o => {
+      o.addEventListener("click", () => {
+        selected.innerHTML = o.querySelector("label").innerHTML;
+        optionsContainer.classList.remove("active");
+      });
+    });
+    /* 2. function end for select option*/
+    
+    /* 1. function start for contet*/
+    function web_Development() {
+      console.log("yes")
+      x.style.display = "block";
+      y.style.display = "none";
+      z.style.display = "none";
+      a.style.display = "none";
+    }
+    function Backend() {
+      console.log("no")
+
+      x.style.display = "none";
+      y.style.display = "block";
+      z.style.display = "none";
+      a.style.display = "none";
+    }
+    function frontend() {
+      console.log("no")
+
+      x.style.display = "none";
+      y.style.display = "none";
+      z.style.display = "block";
+      a.style.display = "none";
+    }
+    function softerware_Development() {
+      console.log("no")
+
+      x.style.display = "none";
+      y.style.display = "none";
+      z.style.display = "none";
+      a.style.display = "block";
+    }
+    /* 1. function end for contet*/
+
+
+    
+    let menuToggle=document.querySelector('.menuToggle');
+    let header = document.querySelector('header');
+    menuToggle.onclick=function(){
+        header.classList.toggle('active');
+    }
+
+
+  </script>
+<script>// Get the modal
+  var popupForm = document.getElementById("popupForm");
+  
+  // Get the button that opens the form
+  var openFormBtn = document.getElementById("openFormBtn");
+  
+  // Get the button that closes the form
+  var closeFormBtn = document.getElementById("closeFormBtn");
+  
+  // When the user clicks on the button, open the modal
+  openFormBtn.onclick = function() {
+      popupForm.style.display = "block";
+  }
+  
+  // When the user clicks on the close button, close the modal
+  closeFormBtn.onclick = function() {
+      popupForm.style.display = "none";
+  }
+  
+  // Close the form when clicking outside of it
+  window.onclick = function(event) {
+      if (event.target == popupForm) {
+          popupForm.style.display = "none";
+      }
+  }
+   /*document.getElementById('popupForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting the traditional way
+
+ // Show the modal
+    var modal = document.getElementById('successModal');
+    modal.style.display = 'block';
+
+    // Close the modal when the user clicks on the close button
+    var closeBtn = document.getElementsByClassName('close-btn')[0];
+    closeBtn.onclick = function() {
+        modal.style.display = 'none';
+    }
+
+    // Close the modal when the user clicks anywhere outside of the modal content
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+});*/
+  </script>
+
+</body>

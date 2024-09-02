@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+    box-sizing: border-box;
+    
+  }
+ /*navbar stat*/
+header{
+  position: fixed;
+  width: 100%;
+  min-height: 66px;
+  background-color: rgb(244, 240, 240);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  padding:0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #a7a6a6;
+  z-index: 2;
+  top: 0;
+}
+header .logo img{
+  width: 51px;
+    border: none;
+    border-radius: 49px;
+    
+}
+header ul {
+  position: relative
+}
+header ul li {
+  position: relative;
+  list-style: none;
+  float: left;
+}
+header ul li a{
+  color: black;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 20px 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+
+}
+header ul li a:hover{
+  background: #d1d4d1;
+}
+header ul li ul {
+  position: absolute;
+  left: 0;
+  width: 400px;
+  background-color: rgb(244, 240, 240);
+  display: none;
+  z-index: 1;
+
+}
+header ul li:hover ul{
+  display: block;
+}
+header ul li ul li{
+  position: relative;
+  width: 100%;
+  
+}
+header ul li ul li a {
+ 
+  font-weight: 400;
+}
+
+
+.nav_2{
+  position:fixed;
+  background-color: rgb(244, 240, 240);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: row;
+justify-content: center;
+  width: 100%;
+  top: 66px;
+  z-index: 1;
+ /* border: 2px solid red;*/
+  
+}
+.nav_2 ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+  
+    width:100%;
+    margin-left: 102px;
+    margin-right: 41px;
+
+
+
+}
+.nav_2 ul li{
+  list-style: none;
+}
+.nav_2 ul li a{
+  color: rgb(233, 112, 112);
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 20px 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content:space-between;
+  padding: 9px;
+
+}
+
+.nav_2 ul li:first-child{
+  margin-right: auto;
+  font-size: 0.4em;
+}
+
+
+.nav_2 ul li:last-child{
+  margin-left: auto;
+}
+
+
+.nav_2 ul li a:hover{
+  text-decoration: underline;
+}
+#search {
+        
+  padding: 5px;
+  font-size: 17px;
+  border: none;
+  border-bottom: 2px solid gray;
+ border-radius: 9px;
+ transition: 1s;
+  outline: none;
+  /*background-color: transparent;
+  
+  width: 145px;*/
+  
+}
+
+@media only screen and (max-width:830px) {
+  .navbar ul li {
+      padding: 0px 8px;
+  }
+
+  .searching {
+      width: 27%;
+  }
+
+  .navbar ul li:hover .drowpdown {
+      top: 156%;
+      width: 252px;
+  }
+
+  .drowpdown ul li a {
+      color: black;
+      font-size: 14px;
+  }
+
+  .row {
+
+      padding-top: 3px;
+      padding-left: 57px;
+  }
+
+  .caption {
+
+      margin-right: 30px;
+  }
+}
+
+/* for responsive*/
+@media (max-width:900px){
+  .shows{
+    display: none;
+  }
+  header{
+    padding:10px 20px;
+  }
+  header nav{
+    position: absolute;
+    width:100%;
+    top: 66px;
+    left: 0;
+    background-color: rgb(244, 240, 240);
+    display: none;
+    }
+    header.active nav{
+      display:initial;
+    }
+    header nav ul li 
+    {
+      width: 100%;
+    }
+    header nav ul li ul{
+      position: relative;
+      width: 100%;
+      left: 0;
+    }
+    header ul li ul li ul {
+      top: 0;
+      left: 0;
+    }
+    header nav ul li:hover ul li{
+      background: white;
+    }
+    .menuToggle{
+      position: relative;
+      width: 40px;
+      height: 50px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      .menuToggle::before{
+        content: '';
+        position:absolute;
+        width: 100%;
+        height: 3px;
+        background: black;
+        transform:translateY(-12px) ;
+        box-shadow: 0 12px black;
+
+      }
+      .menuToggle::after{
+        content: '';
+        position:absolute;
+        width: 100%;
+        height: 3px;
+        background: black;
+        transform:translateY(12px) ;
+      }
+      header.active .menuToggle::before{
+        transform: rotate(45deg);
+        box-shadow: 0 0 black;
+      }
+      
+      header.active .menuToggle::after{
+        transform: rotate(315deg);
+        box-shadow: 0 0 black;
+      }
+      .nav_2 ul{    
+        margin-left: 24px;
+      }
+}
